@@ -1,0 +1,69 @@
+body {
+ background: #fafafa;
+ font-family: menlo;
+ color: #FFF;
+ margin: 0;
+ padding: 0;
+ background: #234;
+ width: 375px;
+ height: 812px;
+}
+
+.tips,
+.numbers{
+ width: 100%;
+ margin: 0 auto;
+
+}
+
+.tips button, .numbers button{
+ width: 112px;
+ height: 80px;
+ margin: 3px;
+ border: 1px solid #777;
+ border-radius: 5px;
+ font-family: inherit;
+ background: linear-gradient(#789, #123);
+ color: inherit;
+ font-weight: 900;
+}
+
+.display{
+ background: #234;
+ color: inherit;
+ width: 97%;
+ margin: 0 auto;
+ margin-bottom: 10px;
+ font-weight: 900;
+ font-size: 25px;
+ text-align: right;
+ height: 50px;
+ padding: 12px;
+ border: 1px solid #456;
+ border-radius: 5px;
+}
+
+.payment{
+ border: 1px solid #456;
+ border-radius: 5px;
+ display: none;
+ background: inherit;
+ color: inherit;
+ margin-bottom: 5px;
+ text-shadow: 2px 1px #000;
+ width: 97%;
+}
+
+.price span, .tpt span, .tot span{
+ float: right;
+ font-weight: 900;
+}
+
+.price, .tpt, .tot{
+ height: 30px;
+ display: none;
+ font-weight: 900;
+ font-size: 20px;
+ color: inherit;
+ font-weight: 900;
+}
