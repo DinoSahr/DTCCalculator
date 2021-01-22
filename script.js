@@ -4,13 +4,6 @@ $(function() {
  var tip = '';
  var txt = "Please select tip percent";
 
-  //Loading Status
- var loaded = setTimeout(function(){
-   $(".jumbotron").show();
-   $(".initializer").hide();
-
- }, 7000);
-
  $('.console').text("Enter purchase amount");
 
  //Purchase Amount
