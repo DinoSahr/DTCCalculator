@@ -14,7 +14,7 @@ $(function() {
  $('.console').text("Enter purchase amount");
 
  //Purchase Amount
- $('.numbers button').not('#ent').click(function(){
+ $('.numbers .col').not('#ent').click(function(){
    num += $(this).text();
    $('.display').text(num);
  });
@@ -31,7 +31,7 @@ $(function() {
  });
 
  //Assign tip
- $('.tips button').not("#clear").click(function(){
+ $('.tips .col').not("#clear").click(function(){
    tip = $(this).text();
    $('.display').text(tip);
  });
