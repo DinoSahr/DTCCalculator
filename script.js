@@ -63,7 +63,7 @@ $(function() {
          break;
 
        default :
-         conf = confirm("Are you sure you don't want to assign a tip");
+         //conf = confirm("Are you sure you don't want to assign a tip");
          tipTot = money * tipPercent;
          $('.tpt span').text("@"+ tip + " " + tipTot.toFixed(2));
 
