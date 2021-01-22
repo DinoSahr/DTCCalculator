@@ -1,0 +1,92 @@
+body {
+  background: #ffb3b3;
+}
+
+.app-layout {
+  background: #ffb3b3;
+  padding-top: 10px;
+}
+
+.tips,
+.numbers{
+ width: 100%;
+ margin: 0 auto;
+
+}
+
+.align-items-start .col {
+ height: 60px;
+ border: 1px solid #ff4d4d;
+ border-radius: 5px;
+ font-family: inherit;
+ background: #ffb3b3;
+ color: inherit;
+ font-weight: 900;
+ margin: 5px;
+ text-align: center;
+ padding: 18px;
+ width: 30%;
+}
+
+.align-items-start .col:hover, .display:hover {
+  box-shadow: 0 1px 1px 1px #ff4d4d;
+}
+
+.legal_statements {
+  background: #ff8080;
+  height: 65px;
+}
+
+.legal_statements p {
+  padding-top: 18px;
+  margin-bottom: 0;
+}
+
+.legal_statements hr {
+  margin-top: 0;
+}
+
+.display{
+ background: #ffb3b3;
+ color: inherit;
+ width: 100%;
+ margin: 0 auto;
+ margin-bottom: 10px;
+ font-weight: 900;
+ text-align: right;
+ padding: 10px 5px;
+ overflow: hidden;
+ height: 50px;
+ border: 1px solid #ff4d4d;
+ border-radius: 5px;
+}
+
+.payment{
+ border-radius: 5px;
+ display: none;
+ background: #ffb3b3;
+ color: inherit;
+ margin-bottom: 0 5px 5px;
+ width: 100%;
+}
+
+.price span, .tpt span, .tot span{
+ float: right;
+ font-weight: 900;
+}
+
+.price, .tpt, .tot{
+ height: 30px;
+ display: none;
+ color: inherit;
+ font-weight: 900;
+}
+
+/***IDS SELECTORS***/
+#navbarSupportedContent ul > .nav-item > a {
+  color: #0762D9;
+}
+
+#navbarSupportedContent ul > .nav-item > a:hover {
+  color: #031CA6;
+}
