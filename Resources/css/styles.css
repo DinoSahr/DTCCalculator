@@ -5,16 +5,17 @@ body {
 .app-layout {
   background: #ffb3b3;
   padding-top: 10px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .tips,
 .numbers{
  width: 100%;
  margin: 0 auto;
-
 }
 
-.align-items-start .col {
+.tip-key-pad, .number-key-pad {
  height: 60px;
  border: 1px solid #ff4d4d;
  border-radius: 5px;
@@ -25,10 +26,11 @@ body {
  margin: 5px;
  text-align: center;
  padding: 18px;
- width: 30%;
+ width: 29%;
+ display: inline-block;
 }
 
-.align-items-start .col:hover, .display:hover {
+.tip-key-pad:hover, .number-key-pad:hover, .display:hover {
   box-shadow: 0 1px 1px 1px #ff4d4d;
 }
 
@@ -51,23 +53,23 @@ body {
  color: inherit;
  width: 100%;
  margin: 0 auto;
- margin-bottom: 10px;
+ margin-bottom: 0;
  font-weight: 900;
  text-align: right;
- padding: 10px 5px;
+ padding: 15px 5px;
  overflow: hidden;
- height: 50px;
- border: 1px solid #ff4d4d;
+ height: 60px;
  border-radius: 5px;
 }
 
-.payment{
+.payment, .console hr:nth-child(2){
  border-radius: 5px;
  display: none;
  background: #ffb3b3;
  color: inherit;
  margin-bottom: 0 5px 5px;
- width: 100%;
+ width: 90%;
+ margin: 0 auto;
 }
 
 .price span, .tpt span, .tot span{
@@ -80,6 +82,10 @@ body {
  display: none;
  color: inherit;
  font-weight: 900;
+}
+
+.console hr {
+  margin-top: 0;
 }
 
 /***IDS SELECTORS***/
